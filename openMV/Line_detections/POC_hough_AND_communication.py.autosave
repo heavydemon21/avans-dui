@@ -88,12 +88,7 @@ sensor.set_framesize(sensor.HVGA)   # Set frame size to QVGA (320x240)
 sensor.skip_frames(time = 2000)     # Wait for settings take effect.
 
 # zumo constants
-DUI_CMD_SIGN_START =0x01
-DUI_CMD_SIGN_END =0x0f
-DUI_CMD_SPEED_START =0x10
-DUI_CMD_SPEED_END =0x1f
-DUI_CMD_STEER_START =0x20
-DUI_CMD_STEER_END =0xff
+l 
 
 # constants for steering
 STEERING_FACTOR = 0.1
